@@ -250,6 +250,13 @@
                             <li><a href="/adminrole/create">角色添加</a></li>
                         </ul>
                     </li>
+                    <li>
+                        <a href="#"><i class="icon-user"></i> 权限管理</a>
+                        <ul class="closed">
+                            <li><a href="/adminnodelist">权限列表</a></li>
+                            <li><a href="/adminnodelist/create">权限添加</a></li>
+                        </ul>
+                    </li>
 
                     <li>
                         <a href="#"><i class="icon-th-list"></i> 分类管理</a>

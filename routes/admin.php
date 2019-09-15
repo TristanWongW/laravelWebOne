@@ -25,7 +25,8 @@ Route::group(['middleware' => 'adminlogin'], function(){
     //权限保存
     Route::post('/adminsaveauth','Admin\RoleListController@saveauth');
 
-    
+    //节点管理
+    Route::resource('/adminnodelist','Admin\NodelistController');
     //后台无限分类模块
     Route::resource('/admincategory','Admin\CategoryController');
 });
